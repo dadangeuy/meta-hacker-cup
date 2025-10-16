@@ -39,7 +39,7 @@ public class TestHelper {
     ) throws URISyntaxException {
         final var packageName = klass.getPackage().getName();
         final var packagePath = packageName.replaceAll("\\.", "/");
-        final var testCasePath = packagePath.replaceFirst("meta/", "testcase/");
+        final var testCasePath = packagePath.replaceFirst("meta/", "/testcase/");
 
         final var testCaseURL = Objects.requireNonNull(klass.getResource(testCasePath));
         final var testCaseURI = testCaseURL.toURI();
