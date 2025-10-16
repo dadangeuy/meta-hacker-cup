@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  * <p>Problem C: Monkey Around</p>
  * <p>15 points</p>
- * <p>Verdict: N/A</p>
+ * <p>Verdict: Accepted</p>
  * <p>Link: <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/practice-round/problems/C">Meta Hacker Cup</a></p>
  */
 public class Main {
@@ -143,13 +143,5 @@ class Process {
 
     private int findMax(final int[] partition) {
         return Arrays.stream(partition).max().orElse(partition[0]);
-    }
-}
-
-record ArrayItem(int value, int index) {
-    public static Comparator<ArrayItem> orderByValueDescIndexAsc() {
-        return Comparator
-                .comparingInt((ArrayItem i) -> -i.value)
-                .thenComparingInt((ArrayItem i) -> i.index);
     }
 }

@@ -14,11 +14,11 @@ import java.util.Set;
 /**
  * <p>Problem A: Warm Up</p>
  * <p>12 points</p>
- * <p>Verdict: N/A</p>
+ * <p>Verdict: Accepted</p>
  * <p>Link: <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/practice-round/problems/A">Meta Hacker Cup</a></p>
  */
 public class Main {
-    static void main(final String... args) throws Exception {
+    static void main(final String... args) {
         final var in = new Scanner(new BufferedInputStream(System.in, 1 << 8));
         final var out = new PrintWriter(new BufferedOutputStream(System.out, 1 << 8));
         final var process = new Process();

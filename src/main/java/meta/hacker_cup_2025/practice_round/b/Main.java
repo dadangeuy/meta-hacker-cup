@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * <p>Problem B: Zone In</p>
  * <p>13 points</p>
- * <p>Verdict: N/A</p>
+ * <p>Verdict: Accepted</p>
  * <p>Link: <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/practice-round/problems/B">Meta Hacker Cup</a></p>
  */
 public class Main {
